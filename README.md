@@ -7,8 +7,9 @@ You can use this module in your own project by adding this project as a [Defold 
 1) Create new document in Google Spreadsheets
 2) Make sure you have structure [like the one in example](https://docs.google.com/spreadsheets/d/1t-2XMabwtjwObXM70OmpXTrevM3IKQYmzCw-bt01udI/edit?usp=sharing). Column with localization keys must be titled as 'key'. Columns with localizations for specific languages must be titled with 2-letters language code
 3) Get shareable link to the document
-4) Copy spreadsheet key (part between 'https://docs.google.com/spreadsheets/d/' and '/edit?usp=sharing')
-5) Update your labels inside collection or gui script using the following callback:
+4) Publish the sheet, EDIT > Publish to the Web
+5) Copy spreadsheet key (part between 'https://docs.google.com/spreadsheets/d/' and '/edit?usp=sharing')
+6) Update your labels inside collection or gui script using the following callback:
 
 ```lua
 local loc = require("shared.locsheets")
